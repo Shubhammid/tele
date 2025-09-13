@@ -1,9 +1,16 @@
 "use client";
 
 import UserSyncWrapper from "@/components/UserSyncWrapper";
+import streamClient from "@/lib/stream";
+
+import { Chat } from "stream-chat-react";
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
-  return <UserSyncWrapper>{children}</UserSyncWrapper>;
+  return (
+    <UserSyncWrapper>
+      <Chat client={streamClient}>{children}</Chat>
+    </UserSyncWrapper>
+  );
 };
 
 export default Layout;
