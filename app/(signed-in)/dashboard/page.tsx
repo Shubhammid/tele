@@ -25,8 +25,22 @@ const Dashboard = () => {
     console.log("Calling...");
   };
 
-  const handleLeaveChat = () => {
-    console.log("Leaving from the Chat...");
+  const handleLeaveChat = async () => {
+    if (!channel || !user?.id) {
+      console.log("No active Channel or User");
+      return;
+    }
+
+    const confirm = window.confirm("Are you sure you want to leave the chat?");
+    if (!confirm) return;
+
+    try {
+      await channel.removeMembers([user.id]);
+      setActiveChannel(undefined);
+      router.push("/dashboard");
+    } catch (error) {
+      console.error("Error leaving chat:", error);
+    }
   };
 
   return (
@@ -56,12 +70,12 @@ const Dashboard = () => {
                   Leave Chat
                 </Button>
               </div>
+            </div>
 
-              <MessageList />
+            <MessageList />
 
-              <div className="sticky bottom-0 w-full">
-                <MessageInput />
-              </div>
+            <div className="sticky bottom-0 w-full">
+              <MessageInput />
             </div>
           </Window>
           <Thread />

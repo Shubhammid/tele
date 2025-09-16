@@ -37,7 +37,9 @@ export const useCreateNewChat = () => {
       }
     }
 
-    const channelId = `${Date.now()} - ${Math.random().toString(36).substring(2, 15)}`;
+    const channelId = `${Date.now()}_${Math.random()
+      .toString(36)
+      .substring(2, 15)}`.replace(/[^A-Za-z0-9_-]/g, "");
 
     try {
       const channelData: {
@@ -60,9 +62,7 @@ export const useCreateNewChat = () => {
         channelData
       );
 
-      await channel.watch({
-        presence: true,
-      });
+      await channel.watch({ presence: true });
 
       return channel;
     } catch (error) {

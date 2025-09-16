@@ -13,6 +13,7 @@ import {
 
 import { Chat } from "stream-chat-react";
 import Link from "next/link";
+import "stream-chat-react/dist/css/v2/index.css"
 
 const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
