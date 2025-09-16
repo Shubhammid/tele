@@ -13,6 +13,7 @@ import { useCreateNewChat } from "@/hooks/useCreateNewChat";
 import { useUser } from "@clerk/nextjs";
 import { useState } from "react";
 import { useChatContext } from "stream-chat-react";
+import UserSearch from "./UserSearch";
 
 export function NewChatDialog({ children }: { children: React.ReactNode }) {
   const [open, setOpen] = useState(false);
@@ -51,7 +52,7 @@ export function NewChatDialog({ children }: { children: React.ReactNode }) {
         </DialogHeader>
 
         <div className="space-y-4">
-            
+            <UserSearch onSelectUser={handleSelectUser} className="w-full" />
         </div>
       </DialogContent>
     </Dialog>

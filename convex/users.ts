@@ -45,7 +45,7 @@ export const upsertUser = mutation({
   },
 });
 
-export const searchUser = query({
+export const searchUsers = query({
   args: {
     searchTerm: v.string(),
   },
