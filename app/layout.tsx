@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "📞 Tele – Real-time Chat & Video Calling App",
     description:
-      "Real-time chat and HD video calling app built with Next.js, Convex, Clerk, and Stream. Secure, scalable, and responsive communication platform.",
+      "Real-time chat and HD video calling app built with Next.js, Convex, Clerk, and Stream, Secure, scalable, and responsive communication platform.",
     url: "https://shubhamchat.vercel.app",
     siteName: "Tele",
     locale: "en_US",
