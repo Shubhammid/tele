@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📞 Tele – Real-time Chat & Video Calling App
 
-## Getting Started
+A modern full-stack **chatting and video calling** application built with the latest technologies to provide a **secure, scalable, and real-time communication platform**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠️ Tech Stack Mastery
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **Next.js 15** – App Router, Server Actions & TypeScript
+* **Convex** – Real-time database with reactive queries & mutations
+* **Clerk** – Authentication & session management
+* **Stream Chat & Video** – Professional chat UI & video calling infrastructure
+* **TailwindCSS** – Modern responsive styling
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Core Features
 
-## Learn More
+✅ **User Authentication** – Sign up, sign in, and profile management with Clerk  
+✅ **Real-time Messaging** – Persistent and instant chat with history  
+✅ **Group Chats** – Create, manage, and chat with multiple users  
+✅ **HD Video Calls** – One-click video calling with screen sharing  
+✅ **User Search** – Find and connect with other users easily  
+✅ **Responsive Design** – Mobile-first design, works seamlessly on all devices  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Advanced Development Concepts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+* 🔄 **Real-time Data Sync** with Convex subscriptions  
+* 🔐 **Authentication Flow** – Secure user sessions & route protection  
+* 🖥️ **Client-Server Architecture** – Modern full-stack design patterns  
+* 🔑 **Token-based Security** – Secure tokens for video calls  
+* 🗂️ **Database Design** – Optimized schema for chat & group conversations  
+* ⚡ **State Management** – Smooth handling of complex UI states  
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🖥️ Demo
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🔗 **Live Preview**: [Tele](https://shubhamchat.vercel.app/)
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork this repo and submit a PR.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+⚡ Built with ❤️ by [Shubham Midgule](https://github.com/Shubhammid)
