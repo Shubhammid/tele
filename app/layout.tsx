@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "📞 Tele – Real-time Chat & Video Calling App",
+  title: "Beam – Real-time Chat & Video Calling App",
   description:
     "A modern full-stack chatting and video calling application built with Next.js 15, Convex, Clerk, Stream Chat & Video, and TailwindCSS. Secure, scalable, and real-time communication platform with authentication, group chats, HD video calls, and responsive design.",
   keywords: [
@@ -36,11 +36,11 @@ export const metadata: Metadata = {
   creator: "Shubham Midgule",
   metadataBase: new URL("https://shubhamchat.vercel.app"),
   openGraph: {
-    title: "📞 Tele – Real-time Chat & Video Calling App",
+    title: "📞 Beam – Real-time Chat & Video Calling App",
     description:
       "Real-time chat and HD video calling app built with Next.js, Convex, Clerk, and Stream, Secure, scalable, and responsive communication platform.",
     url: "https://shubhamchat.vercel.app",
-    siteName: "Tele",
+    siteName: "Beam",
     locale: "en_US",
     type: "website",
   },
