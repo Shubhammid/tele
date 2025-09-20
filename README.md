@@ -1,4 +1,4 @@
-# 📞 Tele – Real-time Chat & Video Calling App
+# 📞 Beam – Real-time Chat & Video Calling App
 
 A modern full-stack **chatting and video calling** application built with the latest technologies to provide a **secure, scalable, and real-time communication platform**.
 
@@ -38,7 +38,7 @@ A modern full-stack **chatting and video calling** application built with the la
 
 ## 🖥️ Demo
 
-🔗 **Live Preview**: [Tele](https://shubhamchat.vercel.app/)
+🔗 **Live Preview**: [Beam](https://shubhamchat.vercel.app/)
 
 ---
 

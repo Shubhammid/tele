@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "A modern full-stack chatting and video calling application built with Next.js 15, Convex, Clerk, Stream Chat & Video, and TailwindCSS. Secure, scalable, and real-time communication platform with authentication, group chats, HD video calls, and responsive design.",
   keywords: [
-    "Tele",
+    "Beam",
     "Chat App",
     "Video Calling App",
     "Next.js 15",
