@@ -6,7 +6,7 @@ A modern full-stack **chatting and video calling** application built with the la
 
 ## 🛠️ Tech Stack Mastery
 
-* **Next.js 15** – App Router, Server Actions & TypeScript
+* **Next.js** – App Router, Server Actions & TypeScript
 * **Convex** – Real-time database with reactive queries & mutations
 * **Clerk** – Authentication & session management
 * **Stream Chat & Video** – Professional chat UI & video calling infrastructure
