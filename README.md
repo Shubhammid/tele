@@ -18,7 +18,7 @@ A modern full-stack **chatting and video calling** application built with the la
 
 ✅ **User Authentication** – Sign up, sign in, and profile management with Clerk  
 ✅ **Real-time Messaging** – Persistent and instant chat with history  
-✅ **Group Chats** – Create, manage, and chat with multiple users  
+✅ **Group Chat** – Create, manage, and chat with multiple users  
 ✅ **HD Video Calls** – One-click video calling with screen sharing  
 ✅ **User Search** – Find and connect with other users easily  
 ✅ **Responsive Design** – Mobile-first design, works seamlessly on all devices  
